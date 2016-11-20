@@ -7,7 +7,7 @@ As an example, consider the banal and now ubiquitous integration of CAPTCHAs (Co
 
 But my argument today does not focus on algocracy or even CAPTCHAs, even if it is deeply informed by them both. In short, it is about *the need for computer vision techniques that privilege speculation over confirmation*. It is not invested in delegating authority to algorithms; it is also not about mobilizing that vision toward efficiency, or even about foregrounding patterns in repositories, either. It does not, for intance, encourage the algorithmic discovery of historical causes that, until now, have rested ghost-like beyond the threshold of human perception. Instead, my argument is that *speculative approaches to computer vision may resist dichotomizing media and mediation, digital and analog materials, automated and manual labor, and human and machine phenomenologies*. Rather than capturing or re-presenting the world, speculative computer vision may also help people develop a "critical technical practice" (Agre 1997: 155) advocated by scholars such as Tara McPherson (2012) and Alan Liu (2012). For example, it may begin by relinquishing any assumptions that computer vision can be fully understood as, or simply reduced to, "source code." Computer vision necessarily involves lived experience and embodied politics, even when both are dismissed in the name of immediacy and speedy processing. In fact, a brief history of computer vision across the disciplines demonstrates how important lived experience and embodiment are to such processing, and thus to speculative computer vision. 
 
-# Computer Vision Across the Disciplines 
+## Computer Vision Across the Disciplines 
 
 According to various accounts, computer vision research began as early as 1966, during the "Summer Vision Project," when Marvin Minsky, Seymour Papert, Gerald Jay Sussman, and others in the Artificial Intelligence Group (AIG) at the Massachusetts Institute of Technology (MIT) investigated how to use figure-ground analysis to automatically divide pictures into regions based on surface and shape properties. This region description would act as the basis for object identification, where items in pictures were recognized and named by machines with controlled vocabularies of known objects (Papert 1966; Crevier 1993; Boden 2006). Cameras were attached to computers in order to achieve this automated description and identification, with an express desire to eventually construct a pattern analysis system that would combine "maximal flexibility" with "heuristic rules" (Papert 1966: 6).
 
@@ -35,4 +35,71 @@ In humanities research, we see some steps toward these vision infrastructures. A
 
 Real Faces uses a face detection script to foreground the indigenous Australians and non-Europeans not only ignored by the whitewashing of Australia's recordkeeping, but historically subjected to discrimination via the White Australia Policy. In doing so, the project blends an intervention in Australia's archives with a redefinition of vision science. Scripts typically deployed for surveillance and military purposes are instead imagined as mechanisms for critical race studies. At the same time, Bagnall and Sherratt's use of Python and OpenCV for this intervention prompts important questions about *how race is interpreted as form through biometrics and eigenfaces*. For instance, whose faces are idealized or overlooked by machine vision? *How exactly is race a principle component of the training process?* When applied to not only archives but also the everyday spaces of lived experience (e.g., airports, social networks, city streets, and videogames), what forms of racism does computer vision create, and what forms of oppression (e.g., white supremacy) does it enable? By stressing the socio-cultural dimensions of face description and reconstruction, these questions allow us to avoid neatly parsing human and computer vision, or politics and aesthetics, and to refrain from delegating interpretative authority and scholarly responsibility to algorithms. They also refuse attempts to divide historical research with technologies from the simultaneous use of those technologies for routine surveillence and oppression. 
 
-# Next Steps
+## Next Steps
+
+Science, technology, and media studies tell us how histories of technologies are rife with contingencies and conjectures that are erased, ignored, or refreshed after the fact. At a minimum, our source material is always re-sourced material (Chun 2011). Although computer vision is no exception, a speculative approach to it could prompt people to foreground their decisions, investments, and uncertainties. This way, values and decisions are not too easily or too quickly displaced onto technologies. More specifically, a speculative approach to computer vision may help us intervene in normative vision science. At the moment, here are some of my own positions toward such an intervention: 
+
+* We need to historicize the technologies we use. For instance, since the 1960s, computer vision research (or vision science) has not only parsed human from computer perception but also normalized them both. This history informs present-day design practices.  
+* We should highlight the fact that the technologies we use, and how we use them, correspond with who is represented by research and how. Matters of representation and value shape what computer vision technologies we build and use. In the case of speculative computer vision, these technologies may be used for artistic or cultural purposes, not just for confirmation and automation.  
+* For social and cultural critiques of technologies, the technical and material particulars of algorithms are indeed significant. However, knowing them will not "solve" injustices or create just conditions. Put differently, knowing how to program, or knowing how to build or create a computer vision project, is not synonymous with understanding how vision technologies are social relations entangled with the production of meaning and power.
+* We might consider how the act of programming (like writing) never involves total knowledge of what is being processed. For instance, with face recognition, computer vision scripts frequently call existing code and trusted cascades. That is, they do not produce the datasets they then use to interpret faces. This means that computer vision is both social and mutable, not an individual or autonomous effort.   
+* When working with algorithms, we might avoid logics of individual control (e.g., the power of writing source code) as well as logics of romantic play (e.g., some versions of hacking). The former invest too much in the power of programming, while the latter usually ignores social consequences or fetishizes aesthetics.
+* We should refrain from understanding computer vision as disembodied, abstract, or withdrawn from human vision. Instead, it is material and intertwined with a range of context and visions. Put this way, a computer is not an innocuous calculator or invisible verification machine; it is a way to at once make, shape, and see. 
+* Borrowing significantly from this work, speculative computer vision is not about making truth claims, per se. It is about multiplying how scholars see the past, to include algorithmic procedures without reducing them to algocratic measures, rational mechanisms for proof, or devices for confirmation.
+* We should also consider computer vision a public act. Datasets for face recognition are generally produced without consent using images across the web, computer vision is increasingly common in public infrastructures, and decisions made with computer vision already influence policy and acts of policing, such as racial profiling and forensic surveillance.
+
+Taken together, I hope these notes toward a speculative computer vision may especially educate people with privilege, such as myself, about how they perpetuate algocracy, benefit from it, and may resist and change it through technocultural practices invested in just conditions. Otherwise, we risk delegating responsibility for questions of justice to the rule of code.
+
+## Acknowledgments 
+
+This draft builds on a previous paper, invited by Dorothy Kim and Jesse Stommel, for the 2016 Modern Language Association convention as well as research for the "Seeing the Past" project organized by Kevin Kee. Thank you, Dorothy, Jesse, and Kevin, for your support. 
+
+## References 
+
+Agre, Philip E. "Toward a Critical Technical Practice. Lessons Learned in Trying to Reform AI." *Social Science, Technical Systems, and Cooperative Work: Beyond the Great Divide*. Eds. Geoffrey Bowker, et al. New York: Erlbaum, 1997.  
+
+Aneesh, A. *Virtual Migration: The Programming of Globalization*. Durham, NC: Duke University Press, 2006. 
+
+Arnall, Timo. *Robot Readable World*. 2012. https://vimeo.com/36239715.
+
+Backes, Martin. "New Artwork: Pixelhead." *Martin Backes - Official Website*. 2010. http://www.martinbackes.com/new-artwork-pixelhead.
+
+Bagnall, Kate and Tim Sherratt. "Invisible Australians: Living under the White Australia Policy." 2011. http://invisibleaustralians.org/.
+
+Berger, John. *Ways of Seeing*. New York: Penguin Books Limited, 1972.
+
+Berry, David. "What Is the 'New Aesthetic'?" *Stunlaw*. 2012. http://stunlaw.blogspot.ca/2012/04/what-is-new-aesthetic.html.
+
+Boden, Margaret. *Mind As Machine: A History of Cognitive Science*. New York, Oxford University Press, 2006.
+
+Bridle, James. "The New Aesthetic: Waving at the Machines." *Booktwo*. 2011. http://booktwo.org/notebook/waving-at-machines/.
+
+Browne, Simone. "Digital Epidermalization: Race, Identity and Biometrics." *Critical Sociology* 36.1 (2010): 131–50. 
+
+Calderara, Simone, Andrea Prati, and Rita Cucchiara. "Video Surveillance and Multimedia Forensics: An Application to Trajectory Analysis." *Proceedings of the First ACM Workshop on Multimedia in Forensics*, MiFor ’09. New York (2009): 13–18. 
+
+Chun, Wendy Hui Kyong. *Programmed Visions: Software and Memory*. Cambridge, MA: MIT Press, 2011.
+
+Columbia University. "Pubfig: Public Figures Face Database." 2010. http://www.cs.columbia.edu/CAVE/databases/pubfig/.
+
+Crevier, Daniel. *AI: The Tumultuous History of the Search for Artificial Intelligence*. New York, Basic Books, 1993.
+
+Galloway, Alexander. *Protocol: How Control Exists after Decentralization*. Cambridge, MA: MIT Press, 2001. 
+
+Haraway, Donna. *The Haraway Reader*. 1st ed. New York: Routledge, 2003
+
+Harvey, Adam. "Stealth Wear." *AH Projects*. 2013. http://ahprojects.com/projects/stealth-wear/.
+
+Jones, Matt. "Sensor-Vernacular." *BERG*. 2011. http://berglondon.com/blog/2011/05/13/sensor-vernacular/.
+ 
+Liu, Alan. "Where Is Cultural Criticism in the Digital Humanities?" *Debates in the Digital Humanities*. Ed. Matthew K. Gold. Minneapolis: University of Minnesota Press, 2012. 
+
+McPherson, Tara. "Why Are the Digital Humanities So White? or Thinking the Histories of Race and Computation." *Debates in the Digital Humanities*. Ed. Matthew K. Gold. Minneapolis: University of Minnesota Press, 2012. 
+
+Minsky, Marvin. "A Framework for Representing Knowledge." 1974. https://web.media.mit.edu/~minsky/papers/Frames/frames.html.
+
+Papert, Seymour. "The Summer Vision Project." July 1966. http://dspace.mit.edu/handle/1721.1/6125.
+
+Szeliski, Richard. *Computer Vision: Algorithms and Applications*. Springer Science & Business Media, 2010. 
+
+Viola, Paul, and Michael Jones. "Robust Real-Time Object Detection." *International Journal of Computer Vision* 57.2 (2004): 137-154.
